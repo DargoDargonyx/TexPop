@@ -1,0 +1,70 @@
+[
+  {
+    "file": "src/cli.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-Wextra",
+      "-Iinclude",
+      "-O2",
+      "-DNDEBUG",
+      "-c",
+      "src/cli.c",
+      "-o",
+      "bin/release/cli.o"
+    ],
+    "directory": "/home/dargo/DevWork/Util/TexPop",
+    "output": "bin/release/cli.o"
+  },
+  {
+    "file": "src/command.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-Wextra",
+      "-Iinclude",
+      "-O2",
+      "-DNDEBUG",
+      "-c",
+      "src/command.c",
+      "-o",
+      "bin/release/command.o"
+    ],
+    "directory": "/home/dargo/DevWork/Util/TexPop",
+    "output": "bin/release/command.o"
+  },
+  {
+    "file": "src/main.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-Wextra",
+      "-Iinclude",
+      "-O2",
+      "-DNDEBUG",
+      "-c",
+      "src/main.c",
+      "-o",
+      "bin/release/main.o"
+    ],
+    "directory": "/home/dargo/DevWork/Util/TexPop",
+    "output": "bin/release/main.o"
+  },
+  {
+    "file": "src/storage.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-Wextra",
+      "-Iinclude",
+      "-O2",
+      "-DNDEBUG",
+      "-c",
+      "src/storage.c",
+      "-o",
+      "bin/release/storage.o"
+    ],
+    "directory": "/home/dargo/DevWork/Util/TexPop",
+    "output": "bin/release/storage.o"
+  }
+]
